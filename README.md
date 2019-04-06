@@ -17,6 +17,14 @@ Requirements:
      xlsxwriter,
      sys,
      tqdm.
+
+It is possible to execute connections "Safe" and not "Secure". to avoid placing IP and password repeatedly.
+
+     -Prism Element secure connection, lines 28 to 32.
+     -Prism Central secure connection, lines 100 to 102.
      
+IMPORTANT 1: the variable "directory" must be declared on line 42, there is an example for windows and linux.
+IMPORTANT 2: there is a variable named TIMEOUT which by default is 15 seconds. If there are problems of slowness or connection can modify this value according to the reality of each connection.
+
 If you need help to running please contact me , dlira96@gmail.com
 
