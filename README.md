@@ -17,4 +17,6 @@ Requirements:
      xlsxwriter,
      sys,
      tqdm.
+     
+If you need help to running please contact me , dlira96@gmail.com
 
