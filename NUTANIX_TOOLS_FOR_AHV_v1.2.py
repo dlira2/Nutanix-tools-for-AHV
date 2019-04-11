@@ -1,6 +1,6 @@
 
 ##############################################################################
-#                                                         					 #
+#                                                         		     #
 # SCRIPT NUTANIX TOOLS FOR AHV v1.2                                          #
 # PYTHON 3.6                                                                 #
 # Testing on AOS , 5.8.x, 5.9.x, 5.10.x                                      #                       
@@ -358,7 +358,7 @@ if  pe_success_login == 100:
     worksheet8.write('C1', 'Image Size in GB', bold)
     worksheet8.write('D1', 'Image State', bold)
     worksheet8.write('E1', 'created_time_in_usecs', bold)
-    worksheet1.autofilter('A1:P1')
+    worksheet1.autofilter('A1:Y1')
     worksheet2.autofilter('A1:G1')
     worksheet3.autofilter('A1:C1')
     worksheet4.autofilter('A1:J1')
