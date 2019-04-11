@@ -1,7 +1,7 @@
 
 ##############################################################################
-#                                                         #
-# SCRIPT NUTANIX TOOLS FOR AHV v1.0                                          #
+#                                                                            #
+# SCRIPT NUTANIX TOOLS FOR AHV v1.2                                          #
 # PYTHON 3.6                                                                 #
 # Testing on AOS , 5.8.x, 5.9.x, 5.10.x                                      #                       
 # David Lira, dlira96@gmail.com                                              #
@@ -26,16 +26,16 @@ date_time = time.strftime('%d_%m_%Y_%H_%M')
 def prRed(skk): print("\033[91m {}\033[00m" .format(skk)) 
 
 ##LOGIN SECURE PRISM ELEMENT
-#ip_pe = input("Prism-Element-IP: ")
-#url = ('https://' + ip_pe +':9440')
-#username = input("Username: ")
-#password = getpass.getpass()
+ip_pe = input("Prism-Element-IP: ")
+url = ('https://' + ip_pe +':9440')
+username = input("Username: ")
+password = getpass.getpass()
 
 ##LOGIN NO SECURE PRISM ELEMENT
-ip_pe = '10.26.1.2'
-url = ('https://' + ip_pe +':9440')
-username = 'admin'
-password = 'Pass1010.,'
+#ip_pe = '10.26.1.2'
+#url = ('https://' + ip_pe +':9440')
+#username = 'admin'
+#password = 'Pass1010.,'
 
 ###Folder or directory
 #directory = "C:/Users/ext_fecastilloc/Desktop/NTNX SCRIPT/"
