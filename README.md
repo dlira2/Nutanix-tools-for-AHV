@@ -38,4 +38,20 @@ Additional script to obtain the data associated with the physical ports of the s
 It is necessary to have the prism element information and the password of the "nutanix" user for the SSH connection.
 It only works on LINUX platforms.
 
+Requirements modules:
+     paramiko
+     sys
+     tempfile
+     time
+     os
+     datetime
+     xlsxwriter
+     subprocess
+     getpass
+     requests
+     urllib3
+
+Requirment on switch TOR for nutanix cluster ( Top of rack ):
+     Enable LLDP or CDP on ports or global conf.
+
 Tested on Ubuntu and Linux Mint.
