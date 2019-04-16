@@ -30,3 +30,8 @@ It is possible to execute connections "Safe" and not "Secure". to avoid placing 
 
 If you need help to running or any problem please contact me , dlira96@gmail.com.
 
+# Nutanix-tools-for-AHV LLDP
+
+Additional script to obtain the data associated with the physical ports of the switch top of rack and the physical ports of AHV ..
+It is necessary to have the prism element information and the password of the "nutanix" user for the SSH connection.
+It only works on LINUX platforms, tested on Ubuntu and Linux Mint.
