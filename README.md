@@ -7,8 +7,9 @@ Tested on AOS 5.5.x , 5.8.x , 5.9.x and 5.10.x
 
 Requirements:
 
-- python 3.6 or higher.
-- Python Module :
+python 3.6 or higher.
+Python Module :
+
      csv,
      getpass,
      json,
