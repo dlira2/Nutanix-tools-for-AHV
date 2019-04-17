@@ -118,47 +118,48 @@ INFORMATION COLLECTED BY THE SCRIPT :
      
 -HOST AHV :
 
-     UUID,
-     NAME,
-     HYPERVISOR IP,
-     SERIAL NODE,
-     CVM IP,
-     SERIAL BLOCK,
-     BLOCK MODEL,
-     CPU MODEL	Nro CPU,
-     Nro Threads,
-     Nro SOCKET,
-     Memory in GB,
-     HYPERVISOR VERSION,
-     Nro VM,
-     DEGRADED,
-     MAINTENANCE MODE,
+     UUID
+     NAME
+     HYPERVISOR IP
+     SERIAL NODE
+     CVM IP
+     SERIAL BLOCK
+     BLOCK MODEL
+     CPU MODEL
+     Nro CPU
+     Nro Threads
+     Nro SOCKET
+     Memory in GB
+     HYPERVISOR VERSION
+     Nro VM
+     DEGRADED
+     MAINTENANCE MODE
      
 -VOLUME GROUP:
 
-     UUID,
-     NAME,
-     VMDISK UUID,
-     VMDISK SIZE GB,
-     FLASH MODE,
+     UUID
+     NAME
+     VMDISK UUID
+     VMDISK SIZE GB
+     FLASH MODE
 
 -VDISK INFO:
 
-     VM NAME,
-     DEVICE ADDRESS,
-     VMDISK UUID,
-     DEVICE IN GB,
-     StorateCont UUID,
-     StorateCont Name,
+     VM NAME
+     DEVICE ADDRESS
+     VMDISK UUID
+     DEVICE IN GB
+     StorateCont UUID
+     StorateCont Name
      Ndfs_filepath
    
 
 -IMANGE ( PRISM ELEMENT ):
 
-     Name,
-     Image Type,
-     Image Size in GB,
-     Image State,
+     Name
+     Image Type
+     Image Size in GB
+     Image State
      created_time_in_usecs
 
 Tested on windows 10 and Linux Minut , Centos and rhel.
@@ -190,8 +191,8 @@ Tested on Ubuntu and Linux Mint.
 
 INFORMATION COLLECTED BY THE SCRIPT :
 
-     HOSTNAME,
-     SWITCH NAME,
-     SWITCH PORT,
-     AHV PORT.
+     HOSTNAME
+     SWITCH NAME
+     SWITCH PORT
+     AHV PORT
 
