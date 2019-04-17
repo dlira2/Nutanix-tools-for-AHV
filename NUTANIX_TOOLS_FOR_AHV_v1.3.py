@@ -128,7 +128,7 @@ try:
 			session.headers.update({'Content-Type': 'application/json; charset = utf-8'})
 			session.headers.update({'Accept': 'application/json'})
 			###PRISM CENTRAL VM INFO
-			vminfo='{"kind": "vm","offset": 0,"length": 1000}'
+			vminfo='{"kind": "vm","offset": 0,"length": 1}'
 			pc_vm_info = session.post(pc_url + '/api/nutanix/v3/vms/list',vminfo)
 			#print(central_vm_info.json())
 			if pc_vm_info.status_code == requests.codes.ok:
