@@ -155,7 +155,7 @@ INFORMATION COLLECTED BY THE SCRIPT :
      Ndfs_filepath
    
 
--IMANGE ( PRISM ELEMENT ):
+-IMAGE ( PRISM ELEMENT ):
 
      Name
      Image Type
