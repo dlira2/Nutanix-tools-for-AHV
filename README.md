@@ -33,6 +33,7 @@ If you need help to running or any problem please contact me , dlira96@gmail.com
 INFORMATION COLLECTED BY THE SCRIPT :
 
 -Sumarry Cluster:
+
      Cluster Name,
      Cluster Version,
      Cluster Timezone,
@@ -51,6 +52,7 @@ INFORMATION COLLECTED BY THE SCRIPT :
      Date
 
 -VM INFO:
+
      Cluster,
      AOS,
      NCC,
@@ -78,6 +80,7 @@ INFORMATION COLLECTED BY THE SCRIPT :
      VM CREATION TIME :ONLY AVAILABLE IF OPTIONS PRISM CENTRAL IS SELECTED IN THE SCRIPT,
   
 -VM DISK INFO:
+
      VM NAME,
      VM UUID,
      DISK INTERFACE,
@@ -95,11 +98,13 @@ INFORMATION COLLECTED BY THE SCRIPT :
      CDROOM ISO MOUNTED,
 
 -VM NETWORK:
+
      UUID,
      Network Name,
      Vlan ID,
 
 -STORAGE CONTAINER:
+
      UUID,
      Name,
      Used Space Bytes,
@@ -111,7 +116,8 @@ INFORMATION COLLECTED BY THE SCRIPT :
      on_disk_dedup,
      compression_enabled,
      
--HOST AHV   
+-HOST AHV :
+
      UUID,
      NAME,
      HYPERVISOR IP,
@@ -129,6 +135,7 @@ INFORMATION COLLECTED BY THE SCRIPT :
      MAINTENANCE MODE,
      
 -VOLUME GROUP:
+
      UUID,
      NAME,
      VMDISK UUID,
@@ -136,6 +143,7 @@ INFORMATION COLLECTED BY THE SCRIPT :
      FLASH MODE,
 
 -VDISK INFO:
+
      VM NAME,
      DEVICE ADDRESS,
      VMDISK UUID,
@@ -146,6 +154,7 @@ INFORMATION COLLECTED BY THE SCRIPT :
    
 
 -IMANGE ( PRISM ELEMENT ):
+
      Name,
      Image Type,
      Image Size in GB,
@@ -161,6 +170,7 @@ It is necessary to have the prism element information and the password of the "n
 It only works on LINUX platforms.
 
 Requirements modules:
+
      paramiko
      sys
      tempfile
