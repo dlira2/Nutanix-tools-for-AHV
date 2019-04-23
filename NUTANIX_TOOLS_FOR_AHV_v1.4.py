@@ -311,8 +311,8 @@ if  pe_success_login == 100:
     worksheet2.write('L1', 'VOLUME GROUP NAME', bold)
     worksheet2.write('M1', 'VM FLASH MODE', bold)
     worksheet2.write_comment('M1', 'IF CLUSTER IS FULL SSD THIS OPTION NOT´S APPLY')
-    worksheet2.write('N1', 'CDROOM', bold)
-    worksheet2.write('O1', 'CDROOM ISO MOUNTED', bold)
+    worksheet2.write('N1', 'CDROM', bold)
+    worksheet2.write('O1', 'CDROM ISO MOUNTED', bold)
     worksheet3.write('A1', 'UUID', bold)
     worksheet3.write('B1', 'Network Name', bold)
     worksheet3.write('C1', 'Vlan ID', bold)
@@ -568,7 +568,7 @@ if  pe_success_login == 100:
             worksheet2.write(row , col +4 ,info['device_index'])
             if volume_group == '-':
                 if  info.get('vmdisk_uuid','-') == '-':
-                    worksheet2.write(row , col +5 ,'CDROOM')
+                    worksheet2.write(row , col +5 ,'CDROM')
                 else:
                     worksheet2.write(row , col +5 ,'VDISK')
             else:
