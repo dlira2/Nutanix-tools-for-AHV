@@ -50,6 +50,15 @@ INFORMATION COLLECTED BY THE SCRIPT :
      HA reservation Status
      HA host tolerate
      HA state
+     RESILIENCY STATUS LEVEL ( ONLY FOR DISK)
+          N°DISK CAN BE FAIL ON METADATA
+          DISK IS REBUILDING
+          N°DISK CAN BE FAIL ON ERASURE_CODE_STRIP_SIZE
+          DISK IS REBUILDING
+          N°DISK CAN BE FAIL ON EXTENT_GROUPS
+          DISK IS REBUILDING
+          N°DISK CAN BE FAIL ON OPLOG
+          DISK IS REBUILDING 
      Date
 
 -VM INFO:
@@ -155,13 +164,37 @@ INFORMATION COLLECTED BY THE SCRIPT :
      Ndfs_filepath
    
 
--IMAGE ( PRISM ELEMENT ):
+-PE IMAGE ( PRISM ELEMENT ):
 
      Name
      Image Type
      Image Size in GB
      Image State
      created_time_in_usecs
+     
+-PC IMAGE ( PRISM CENTRAL " READY ON VERSION V1.7):
+
+     Name
+     Image Type
+     Image Size in GB
+     Image State
+     created_time_in_usecs     
+     
+-PHYSICAL DISK( AHV HOST ):
+
+     HOST IP
+     HOST NAME
+     CVM IP
+     TIER
+     LOCATION ( DISK LOCATION ON SHELF)
+     DISK SIZE
+     DISK ONLINE
+     DISK STATE
+     DISK MODEL
+     DISK FIRMWARE
+     DISK SERIAL
+     DISK HEALTH
+     
 
 Tested on windows 10 and Linux Minut , Centos and rhel.
 
