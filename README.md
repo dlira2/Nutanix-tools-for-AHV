@@ -26,11 +26,12 @@ Python Module :
 
 It is possible to execute connections "Safe" and not "Secure". to avoid placing IP and password repeatedly.
 
-     -Prism Element secure connection, lines 28 to 32.
-     -Prism Central secure connection, lines 100 to 102.
+     -Prism Element secure connection, lines 31 to 35.
+     -Prism Central secure connection, lines 104 to 109.
     
      IMPORTANT 1: the variable "directory" must be declared on line 42, there is an example for windows and linux.
-     IMPORTANT 2: there is a variable named TIMEOUT which by default is 15 seconds. If there are problems of slowness or connection can modify this value according to the reality of each connection.
+     IMPORTANT 2: there is a variable named TIMEOUT which by default is 15 seconds. If there are problems of slowness or     connection can modify this value according to the reality of each connection.Line 45, default 15.
+     IMPORTANT 3: Variable poolingvmapi in line 47 . Hoy many VM get from prism central , default 500.. Max 500. If you want  to get less info you cant modify this variable. But the script take more time tu complete all the process if you select      prism central info.
 
 If you need help to running or any problem please contact me , dlira96@gmail.com.
 
