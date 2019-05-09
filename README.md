@@ -22,7 +22,7 @@ Python Module :
      datetime,
      xlsxwriter,
      sys,
-     tqdm.
+     tqdm. ( only for version v1.0 to v1.6)
 
 It is possible to execute connections "Safe" and not "Secure". to avoid placing IP and password repeatedly.
 
