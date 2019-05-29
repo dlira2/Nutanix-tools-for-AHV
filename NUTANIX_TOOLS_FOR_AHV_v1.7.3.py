@@ -745,8 +745,6 @@ if  pe_success_login == 100:
 				worksheet2.write(row , col +13 ,'-')
 				worksheet2.write(row , col +14 ,'-')
 
-
-
 	#NETWORK PRINT
 	row = 0
 	for network in vlan_ent:
