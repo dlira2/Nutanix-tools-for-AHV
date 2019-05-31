@@ -1,4 +1,4 @@
-# Nutanix-tools-for-AHV v1.7.3 
+# Nutanix-tools-for-AHV v1.7.4 
 
 BIG UPDATE v1.7 - > 30x more faster that v1.6.
 
@@ -148,6 +148,8 @@ INFORMATION COLLECTED BY THE SCRIPT :
      Nro VM
      DEGRADED
      MAINTENANCE MODE
+     BIOS VERSION ( ONLY FOR NX SERIES )
+     BMC VERSION ( ONLY FOR NX SERIES )
      
 -VOLUME GROUP:
 
@@ -176,7 +178,7 @@ INFORMATION COLLECTED BY THE SCRIPT :
      Image State
      created_time_in_usecs
      
--PC IMAGE ( PRISM CENTRAL " READY ON VERSION V1.7):
+-PC IMAGE ( NO READY JET):
 
      Name
      Image Type
