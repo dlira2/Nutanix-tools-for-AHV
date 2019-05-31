@@ -1,4 +1,4 @@
-# Nutanix-tools-for-AHV v1.7.4 
+# Nutanix-tools-for-AHV v1.7.5 
 
 BIG UPDATE v1.7 - > 30x more faster that v1.6.
 
@@ -41,6 +41,9 @@ INFORMATION COLLECTED BY THE SCRIPT :
 
      Cluster Name 
      Cluster Version
+     Cluster AHV Version
+     Cluster NCC Version
+     Cluster Subnet
      Cluster Timezone
      Cluster DNS
      Cluster NTP
@@ -68,9 +71,6 @@ INFORMATION COLLECTED BY THE SCRIPT :
 -VM INFO:
 
      Cluster
-     AOS
-     NCC
-     SUBNET
      VM UUID
      VM NAME
      HOST UUID
