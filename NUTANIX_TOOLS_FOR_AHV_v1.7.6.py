@@ -24,16 +24,16 @@ date_time = time.strftime('%d_%m_%Y_%H_%M')
 def prRed(skk): print("\033[91m {}\033[00m".format(skk))
 
 ##LOGIN SECURE PRISM ELEMENT
-#ip_pe = input("Prism-Element-IP: ")
-#url = ('https://' + ip_pe + ':9440')
-#username = input("Username: ")
-#password = getpass.getpass()
+ip_pe = input("Prism-Element-IP: ")
+url = ('https://' + ip_pe + ':9440')
+username = input("Username: ")
+password = getpass.getpass()
 
 # LOGIN NO SECURE PRISM ELEMENT
-ip_pe = '10.26.1.2'
-url = ('https://' + ip_pe +':9440')
-username = 'admin'
-password = 'Pass1010.,'
+#ip_pe = 'someip
+#url = ('https://' + ip_pe +':9440')
+#username = 'admin'
+#password = 'Somepass.,'
 
 ###Folder or directory
 # Windows
