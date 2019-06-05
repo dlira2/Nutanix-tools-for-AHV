@@ -201,6 +201,12 @@ INFORMATION COLLECTED BY THE SCRIPT :
      DISK SERIAL
      DISK HEALTH
      
+-STORAGE POOL( AHV HOST ):
+
+     POOL UUID
+     POOL NAME
+     POOL CAPACITY IN TB ( RAW )
+     POOL DISK UUID
 
 Tested on windows 10 and Linux Minut , Centos and rhel.
 
