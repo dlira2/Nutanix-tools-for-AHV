@@ -1,4 +1,4 @@
-# Nutanix-tools-for-AHV v1.7.6 
+# Nutanix-tools-for-AHV v1.7.7 
 
 BIG UPDATE v1.7 - > 30x more faster that v1.6.
 
