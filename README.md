@@ -1,7 +1,7 @@
-# Nutanix-tools-for-AHV v1.7.9 
+# Nutanix-tools-for-AHV
 
 
-There are 3 versions v1.7.9 with different objectives.
+There are 3 versions with different objectives.
 
 1) NUTANIX_TOOLS_FOR_AHV_v1.7.9.py
      Purpose: Run from terminal windows or linux having the interpreter and python modules installed. This version requests
@@ -15,7 +15,7 @@ There are 3 versions v1.7.9 with different objectives.
      Example:
      python NUTANIX_TOOLS_FOR_AHV_v1.7.9_WEB_VERSION_DEF.py 10.26.1.2 admin Pass1010., CENTRAL 10.26.1.147 admin Pass1010.,
      
-3) NTX_TOOLS_AHV_PORTABLE_V1.7.9.zip
+3) NTX_TOOLS_AHV_PORTABLE_V1.8.0.zip
      Purpose: Execute from terminal windows is not necessary to have the interpreter and python modules installed. This
      version is the most graphical for users who do not know about scription or programming.
 
