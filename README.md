@@ -19,13 +19,43 @@ There are 3 versions with different objectives.
      python NUTANIX_TOOLS_FOR_AHV_v1.7.9_WEB_VERSION_DEF.py 10.26.1.2 admin Pass1010., CENTRAL 10.26.1.147 admin Pass1010.,
    
 
+NEW ON NIACtool v2.2:
+
+Fixes:
+VM INFO TAB: 
+	*NGT reachable. (Now the information is displayed correctly)
+
+STORAGE CONTAINER TAB:
+        *FREE SPACE AND USED SPACE (Now the information is clearer)
+
+New on gui and engine:
+GUI / CORE:
+	*Error handlers
+	*Pop-ups at the end of work
+	*Pop-ups if errors are found
+	*Pop-ups if the required data is not complete when you press RUN
+
+New info: 
+SUMMARY TAB:
+	*CLUSTER CPU % USAGE.
+	*CLUSTER MEMORY % USAGE.
+	*CLUSTER STORAGE CAPACITY(PHYSICAL).
+	*CLUSTER STORAGE USED(PHYSICAL).
+	*CLUSTER STORAGE FREE(PHYSICAL).
+
+VM INFO TAB:
+        *VM OS(NGT must be installed) ( Is necessary prism central info and NGT installed on VM)
+
+
+INFO:
+
 Data collector associated with the Nutanix AHV cluster and VM´s.
 
 Script developed in python to collect the information of Prism Element with the option of being able to connect to a Prism Central to obtain the project to which each VM belongs. The code generates an Excel table with all the information of the Nutanix platform with AHV. Many searches within the script are using Excel formulas to avoid overuse of API and the collection is more faster. The script will consult if there is an instance of Prism Central and if the user wants to obtain such information by means of a confirmation. If "Y" is selected, it will recolect the Prism Central VM proyect info. when this option is selected it may take a longer time, because you must consult for each VM to which project it belongs. A "Progress Bar" indicator was added to see if the script is running or there is a problem.
 
 Tested on AOS 5.5.x , 5.8.x , 5.9.x and 5.10.x
 
-Requirements:
+Requirements (NEED UPDATES):
 
 python 3.6 or higher.
 Python Module :
@@ -39,7 +69,7 @@ Python Module :
      datetime,
      xlsxwriter,
      sys,
-     tqdm. ( only for version v1.0 to v1.6)
+
 
 It is possible to execute connections "Safe" and not "Secure". to avoid placing IP and password repeatedly.
 
