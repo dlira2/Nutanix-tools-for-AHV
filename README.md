@@ -3,7 +3,7 @@
 
 There are 3 versions with different objectives.
 
-0) NIACtool v2.1 (Windows),
+0) NIACtool v2.2 (Windows),
      Purpose: 100% GUI interface for windows.
 
 1) NUTANIX_TOOLS_FOR_AHV_v1.7.9.py,
