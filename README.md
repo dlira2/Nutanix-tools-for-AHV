@@ -22,21 +22,25 @@ There are 3 versions with different objectives.
 NEW ON NIACtool v2.2:
 
 Fixes:
-VM INFO TAB: 
-	*NGT reachable. (Now the information is displayed correctly)
 
-STORAGE CONTAINER TAB:
+     VM INFO TAB: 
+	*NGT reachable. (Now the information is displayed correctly)
+     STORAGE CONTAINER TAB:
         *FREE SPACE AND USED SPACE (Now the information is clearer)
 
+
 New on gui and engine:
-GUI / CORE:
+
+      GUI / CORE:
+        *FREE SPACE AND USED SPACE (Now the information is clearer)
 	*Error handlers
 	*Pop-ups at the end of work
 	*Pop-ups if errors are found
 	*Pop-ups if the required data is not complete when you press RUN
 
 New info: 
-SUMMARY TAB:
+      
+      SUMMARY TAB:
 	*CLUSTER CPU % USAGE.
 	*CLUSTER MEMORY % USAGE.
 	*CLUSTER STORAGE CAPACITY(PHYSICAL).
@@ -44,6 +48,7 @@ SUMMARY TAB:
 	*CLUSTER STORAGE FREE(PHYSICAL).
 
 VM INFO TAB:
+
         *VM OS(NGT must be installed) ( Is necessary prism central info and NGT installed on VM)
 
 
