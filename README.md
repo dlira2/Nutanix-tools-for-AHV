@@ -24,9 +24,9 @@ NEW ON NIACtool v2.2:
 Fixes:
 
      VM INFO TAB: 
-	*NGT reachable. (Now the information is displayed correctly)
+     *NGT reachable. (Now the information is displayed correctly)
      STORAGE CONTAINER TAB:
-        *FREE SPACE AND USED SPACE (Now the information is clearer)
+     *FREE SPACE AND USED SPACE (Now the information is clearer)
 
 
 New on gui and engine:
