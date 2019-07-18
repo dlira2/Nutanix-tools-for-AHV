@@ -32,7 +32,7 @@ Fixes:
 New on gui and engine:
 
       GUI / CORE:
-        *FREE SPACE AND USED SPACE (Now the information is clearer)
+   	*FREE SPACE AND USED SPACE (Now the information is clearer)
 	*Error handlers
 	*Pop-ups at the end of work
 	*Pop-ups if errors are found
