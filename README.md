@@ -93,7 +93,7 @@ Python Module :
      sys,
 
 
-It is possible to execute connections "Safe" and not "Secure". to avoid placing IP and password repeatedly.
+It is possible to execute connections "Safe" and not "Secure". to avoid placing IP and password repeatedly. ( Only for script)
 
      -Prism Element secure connection, lines 31 to 35.
      -Prism Central secure connection, lines 104 to 109.
