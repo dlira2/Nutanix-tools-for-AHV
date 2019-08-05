@@ -3,7 +3,7 @@
 
 There are 3 versions with different objectives.
 
-0) NIACtool v2.3 Latest (Windows),
+0) NIACtool v2.3.1 Latest (Windows),
      Purpose: 100% GUI interface for windows.
 
 1) NUTANIX_TOOLS_FOR_AHV_v1.7.9.py,
@@ -35,6 +35,11 @@ NEW ON NIACtool v2.3:
 	2) CONTAINER NEW DISPLAY METHOD FOR SIZE POOL/DISK
 	3) SUMMARY, STORAGE CAPACITY NEW DISPLAY METHOD FOR SIZE
 	4) SUMMARY, CPU AND MEMORY MORE CLEAR INFO
+	
+	Minor fix
+	1) Bug on snapid ,In some situations the snapid value
+	brings text and not just number, producing an error when creating the "SNAPSHOT ON PD" tab.
+	Thanks Le,Loc for reporting this bug!!
 
 NEW ON NIACtool v2.2:
 
