@@ -1,7 +1,6 @@
 # NIACtool / EX-Nutanix-tools-for-AHV
 
-![alt text](https://github.com/dlira2/Nutanix-tools-for-AHV/releases/download/v_old/niaclogo.pn?raw=true "Title")
-
+![Alt text](https://github.com/dlira2/Nutanix-tools-for-AHV/releases/download/v_old/niaclogo.png?raw=true "Title")
 There are 3 versions with different objectives.
 
 0) NIACtool v2.4 Latest (Windows),
