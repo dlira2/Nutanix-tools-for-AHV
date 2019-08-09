@@ -1,28 +1,8 @@
-# NIACtool / EX-Nutanix-tools-for-AHV
-
 ![Alt text](https://github.com/dlira2/Nutanix-tools-for-AHV/blob/master/NIAClogo.png?raw=true)
 
 
-There are 3 versions with different objectives.
+# NIACtool / EX-Nutanix-tools-for-AHV
 
-0) NIACtool v2.4 Latest (Windows),
-     Purpose: 100% GUI interface for windows.
-
-Check release for download old versions:
-
-1) NUTANIX_TOOLS_FOR_AHV_v1.7.9.py,
-     Purpose: Run from terminal windows or lisnux having the interpreter and python modules installed. This version requests
-     input from the user.
-     
-2) NUTANIX_TOOLS_FOR_AHV_v1.7.9_WEB_VERSION_NO_INPUT.py,
-     Purpose: Run from terminal windows or linux having the interpreter and python modules installed. This version can have
-     all the necessary input in the same call. Ideal to invoke the creation of the report through an execution schedule and
-     automate the process.
-     
-     Example:
-     python NUTANIX_TOOLS_FOR_AHV_v1.7.9_WEB_VERSION_DEF.py 10.26.1.2 admin Pass1010., CENTRAL 10.26.1.147 admin Pass1010.,
-     
-     
 NEW ON NIACtool v2.4:
 
 	Fix:
@@ -324,5 +304,26 @@ INFORMATION COLLECTED BY THE SCRIPT :
      PROTECTION TYPE
      SNAP UUID
      ENTITY DEPENDENCY
+     
+     
+There are 3 versions with different objectives.
 
+0) NIACtool v2.4 Latest (Windows),
+     Purpose: 100% GUI interface for windows.
+
+Check release for download old versions:
+
+1) NUTANIX_TOOLS_FOR_AHV_v1.7.9.py,
+     Purpose: Run from terminal windows or lisnux having the interpreter and python modules installed. This version requests
+     input from the user.
+     
+2) NUTANIX_TOOLS_FOR_AHV_v1.7.9_WEB_VERSION_NO_INPUT.py,
+     Purpose: Run from terminal windows or linux having the interpreter and python modules installed. This version can have
+     all the necessary input in the same call. Ideal to invoke the creation of the report through an execution schedule and
+     automate the process.
+     
+     Example:
+     python NUTANIX_TOOLS_FOR_AHV_v1.7.9_WEB_VERSION_DEF.py 10.26.1.2 admin Pass1010., CENTRAL 10.26.1.147 admin Pass1010.,
+     
+     
 Tested on windows 10 and Linux Minut , Centos and rhel.
