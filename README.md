@@ -280,38 +280,33 @@ INFORMATION COLLECTED BY THE SCRIPT :
      POOL NAME
      POOL CAPACITY IN TB ( RAW )
      POOL DISK UUID
+     
+-PROTECTION DOMAIN
+
+     DP NAME
+     ACTIVE/INACTIVE
+     REMOTE SITE
+     POOL DISK UUID
+     NEXT SNAPSHOT
+     VM NAME
+     POWER STATE
+     CONSISTENCY GROUP NAME
+     SNAPSHOT CONSISTENCY
+     SNAP TYPE
+     SNAP LOCAL RETENTION
+     SNAP REMOTE RETENTION
+     
+-SNAPSHOT ON PD
+
+     SNAP ID
+     LOCAL/REMOTE SNAP
+     PROTECTED ENTITY
+     DP NAME
+     SNAPSHOT CREATION TIME
+     SNAPSHOT EXPIRY TIME
+     RECLAIMABLE SPACE
+     PROTECTION TYPE
+     SNAP UUID
+     ENTITY DEPENDENCY
 
 Tested on windows 10 and Linux Minut , Centos and rhel.
-
-# Nutanix-tools-for-AHV LLDP
-
-Additional script to obtain the data associated with the physical ports of the switch top of rack and the physical ports of AHV ..
-It is necessary to have the prism element information and the password of the "nutanix" user for the SSH connection.
-It only works on LINUX platforms.
-
-Requirements modules:
-
-     paramiko
-     sys
-     tempfile
-     time
-     os
-     datetime
-     xlsxwriter
-     subprocess
-     getpass
-     requests
-     urllib3
-
-Requirment on switch TOR for nutanix cluster ( Top of rack ):
-     Enable LLDP or CDP on ports or global conf.
-
-Tested on Ubuntu and Linux Mint.
-
-INFORMATION COLLECTED BY THE SCRIPT :
-
-     HOSTNAME
-     SWITCH NAME
-     SWITCH PORT
-     AHV PORT
-
