@@ -13,8 +13,10 @@ NEW ON NIACtool v2.4 / v2.4.1:
 
 	Fix:
 	1) FIX BUG ON PROTECTION DOMAIN , ON V2.3.1 NO SHOW INACTIVE PD. 
+	
 	Minimal Fix v2.4.1:
-	 2) Fix CLUSTER STORAGE USED(PHYSICAL), now show the correct value. 
+	1) Fix CLUSTER STORAGE USED(PHYSICAL), now show the correct value.
+	 
 	New info:
 	1) ADD NEW COLUMN(LOCAL/REMOTE) IN SNAPSHOT ON PD.
 	
