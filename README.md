@@ -6,7 +6,7 @@ There are 3 versions with different objectives.
 0) NIACtool v2.4 Latest (Windows),
      Purpose: 100% GUI interface for windows.
 
-Check release for download older version:
+Check release for download old versions:
 
 1) NUTANIX_TOOLS_FOR_AHV_v1.7.9.py,
      Purpose: Run from terminal windows or lisnux having the interpreter and python modules installed. This version requests
