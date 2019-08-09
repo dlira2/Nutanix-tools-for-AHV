@@ -3,6 +3,12 @@
 
 # NIACtool / EX-Nutanix-tools-for-AHV
 
+Data collector associated with the Nutanix AHV cluster and VM´s.
+
+Script developed in python to collect the information of Prism Element with the option of being able to connect to a Prism Central to obtain the project to which each VM belongs. The code generates an Excel table with all the information of the Nutanix platform with AHV. Many searches within the script are using Excel formulas to avoid overuse of API and the collection is more faster. The script will consult if there is an instance of Prism Central and if the user wants to obtain such information by means of a confirmation. If "Y" is selected, it will recolect the Prism Central VM proyect info. when this option is selected it may take a longer time.
+
+Tested on AOS 5.5.x , 5.8.x , 5.9.x and 5.10.x
+
 NEW ON NIACtool v2.4:
 
 	Fix:
@@ -68,43 +74,8 @@ VM INFO TAB:
 
         *VM OS(NGT must be installed) ( Is necessary prism central info and NGT installed on VM)
 
-
-INFO:
-
-Data collector associated with the Nutanix AHV cluster and VM´s.
-
-Script developed in python to collect the information of Prism Element with the option of being able to connect to a Prism Central to obtain the project to which each VM belongs. The code generates an Excel table with all the information of the Nutanix platform with AHV. Many searches within the script are using Excel formulas to avoid overuse of API and the collection is more faster. The script will consult if there is an instance of Prism Central and if the user wants to obtain such information by means of a confirmation. If "Y" is selected, it will recolect the Prism Central VM proyect info. when this option is selected it may take a longer time, because you must consult for each VM to which project it belongs. A "Progress Bar" indicator was added to see if the script is running or there is a problem.
-
-Tested on AOS 5.5.x , 5.8.x , 5.9.x and 5.10.x
-
-Requirements (NEED UPDATES):
-
-python 3.6 or higher.
-Python Module :
-
-     csv,
-     getpass,
-     json,
-     requests,
-     urllib3,
-     time,
-     datetime,
-     xlsxwriter,
-     sys,
-
-
-It is possible to execute connections "Safe" and not "Secure". to avoid placing IP and password repeatedly. ( Only for script)
-
-     -Prism Element secure connection, lines 31 to 35.
-     -Prism Central secure connection, lines 104 to 109.
-    
-     IMPORTANT 1: the variable "directory" must be declared on line 42, there is an example for windows and linux.
-     IMPORTANT 2: there is a variable named TIMEOUT which by default is 15 seconds. If there are problems of slowness or     connection can modify this value according to the reality of each connection.Line 45, default 15.
-     IMPORTANT 3: Variable poolingvmapi in line 47 . Hoy many VM get from prism central , default 500.. Max 500. If you want  to get less info you can modify this variable. But the script take more time tu complete all the process if you select      prism central info.
-
-If you need help to running or any problem please contact me , dlira96@gmail.com.
-
-INFORMATION COLLECTED BY THE SCRIPT :
+     
+INFORMATION COLLECTED BY NIACtool : 
 
 -Sumarry Cluster:
 
@@ -325,5 +296,31 @@ Check release for download old versions:
      Example:
      python NUTANIX_TOOLS_FOR_AHV_v1.7.9_WEB_VERSION_DEF.py 10.26.1.2 admin Pass1010., CENTRAL 10.26.1.147 admin Pass1010.,
      
-     
+
+It is possible to execute connections "Safe" and not "Secure". to avoid placing IP and password repeatedly. ( Only for script ( OLD VERSION)
+
+     -Prism Element secure connection, lines 31 to 35.
+     -Prism Central secure connection, lines 104 to 109.
+    
+     IMPORTANT 1: the variable "directory" must be declared on line 42, there is an example for windows and linux.
+     IMPORTANT 2: there is a variable named TIMEOUT which by default is 15 seconds. If there are problems of slowness or     connection can modify this value according to the reality of each connection.Line 45, default 15.
+     IMPORTANT 3: Variable poolingvmapi in line 47 . Hoy many VM get from prism central , default 500.. Max 500. If you want  to get less info you can modify this variable. But the script take more time tu complete all the process if you select      prism central info.
+
+If you need help to running or any problem please contact me , dlira96@gmail.com.
+
+Requirements (script):
+
+python 3.6 or higher.
+Python Module :
+
+     csv,
+     getpass,
+     json,
+     requests,
+     urllib3,
+     time,
+     datetime,
+     xlsxwriter,
+     sys,
+    
 Tested on windows 10 and Linux Minut , Centos and rhel.
