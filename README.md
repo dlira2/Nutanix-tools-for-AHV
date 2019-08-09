@@ -19,7 +19,6 @@ There are 3 versions with different objectives.
      python NUTANIX_TOOLS_FOR_AHV_v1.7.9_WEB_VERSION_DEF.py 10.26.1.2 admin Pass1010., CENTRAL 10.26.1.147 admin Pass1010.,
    
 
-
 NEW ON NIACtool v2.3:
 
 	Fix:
