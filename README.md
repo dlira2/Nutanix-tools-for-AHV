@@ -3,8 +3,10 @@
 
 There are 3 versions with different objectives.
 
-0) NIACtool v2.3.1 Latest (Windows),
+0) NIACtool v2.4 Latest (Windows),
      Purpose: 100% GUI interface for windows.
+
+Check release for download older version:
 
 1) NUTANIX_TOOLS_FOR_AHV_v1.7.9.py,
      Purpose: Run from terminal windows or lisnux having the interpreter and python modules installed. This version requests
@@ -17,8 +19,20 @@ There are 3 versions with different objectives.
      
      Example:
      python NUTANIX_TOOLS_FOR_AHV_v1.7.9_WEB_VERSION_DEF.py 10.26.1.2 admin Pass1010., CENTRAL 10.26.1.147 admin Pass1010.,
-   
+     
+     
+NEW ON NIACtool v2.4:
 
+	Fix:
+	1) FIX BUG ON PROTECTION DOMAIN , ON V2.3.1 NO SHOW INACTIVE PD. 
+	
+	New info:
+	1) ADD NEW COLUMN(LOCAL/REMOTE) IN SNAPSHOT ON PD.
+	
+	Improvement:
+	1) New order in the columns associated with the "SNAPSHOT ON DP" tab.
+        2) New button in gui, now NIACtool can check if exit a new version.
+   
 NEW ON NIACtool v2.3:
 
 	Fix:
@@ -35,7 +49,7 @@ NEW ON NIACtool v2.3:
 	3) SUMMARY, STORAGE CAPACITY NEW DISPLAY METHOD FOR SIZE
 	4) SUMMARY, CPU AND MEMORY MORE CLEAR INFO
 	
-	Minor fix
+	Minor fix v2.3.1
 	1) Bug on snapid ,In some situations the snapid value
 	brings text and not just number, producing an error when creating the "SNAPSHOT ON PD" tab.
 	Thanks Le,Loc for reporting this bug!!
