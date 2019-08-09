@@ -276,7 +276,7 @@ INFORMATION COLLECTED BY NIACtool :
      SNAP UUID
      ENTITY DEPENDENCY
      
-------------------------------......------MORE INFO FOR OLD VERSION----------------------------------------------------   
+------------------------------------------------MORE INFO FOR OLD VERSION----------------------------------------------------   
 
 There are 3 versions with different objectives.
 
