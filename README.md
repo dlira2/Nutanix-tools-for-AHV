@@ -9,21 +9,35 @@ Script developed in python to collect the information of Prism Element with the 
 
 Tested on AOS 5.5.x , 5.8.x , 5.9.x and 5.10.x
 
-NEW ON NIACtool v2.4 / v2.4.1:
+LATEST VERSION V2.4.3:
+
+NEW ON NIACtool v2.4 / v2.4.1 / v2.4.2 / v2.4.3:
 
 	Fix:
-	1) FIX BUG ON PROTECTION DOMAIN , ON V2.3.1 NO SHOW INACTIVE PD. 
-	
+	  MINIMAL FIX v2.4.3
+  	1) If when taking the information from the active directory it fails, 
+  	   the obtaining of data protection information is affected, the problem
+           is already isolated and solved.
+           Thanks Kroger, Nicholas for your feedback :)
+
 	Minimal Fix v2.4.1:
 	1) Fix CLUSTER STORAGE USED(PHYSICAL), now show the correct value.
 	 
 	New info:
 	1) ADD NEW COLUMN(LOCAL/REMOTE) IN SNAPSHOT ON PD.
 	
-	Improvement:
+	Improvement v2.4.2:
+	1) New button in gui, Extend timeout, if you need more timeout
+           please check.the timeout is set to 120 seconds , default 30.
+  	2) NIACtool_log on folder log/NIACtool_log
+	
+	Improvement v2.4.1:
 	1) New order in the columns associated with the "SNAPSHOT ON DP" tab.
         2) New button in gui, now NIACtool can check if exit a new version.
-   
+	
+	Minimal fix v2.3.1:
+	1) FIX BUG ON PROTECTION DOMAIN , ON V2.3.1 NO SHOW INACTIVE PD. 
+ 
 NEW ON NIACtool v2.3:
 
 	Fix:
