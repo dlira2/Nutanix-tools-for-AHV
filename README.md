@@ -28,7 +28,7 @@ NEW ON NIACtool v2.4 / v2.4.1 / v2.4.2 / v2.4.3:
 	
 	Improvement v2.4.2:
 	1) New button in gui, Extend timeout, if you need more timeout
-           please check.the timeout is set to 120 seconds , default 30.
+        please check.the timeout is set to 120 seconds , default 30.
   	2) NIACtool_log on folder log/NIACtool_log
 	
 	Improvement v2.4.1:
