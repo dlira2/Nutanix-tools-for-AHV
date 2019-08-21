@@ -1,1 +1,1 @@
-NIACtool v2.4.1
+NIACtool v2.4.2
