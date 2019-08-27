@@ -11,9 +11,13 @@ Tested on AOS 5.5.x , 5.8.x , 5.9.x and 5.10.x
 
 LATEST VERSION V2.4.3:
 
-NEW ON NIACtool v2.4 / v2.4.1 / v2.4.2 / v2.4.3:
+NEW ON NIACtool v2.4 / v2.4.1 / v2.4.2 / v2.4.3 / v2.4.4:
 
 	Fix:
+	  MINIMAL FIX v2.4.4
+  	1) Key problem (Name on project prism central).
+  	Thanks Justin for your feedback :)
+	
 	  MINIMAL FIX v2.4.3
   	1) If when taking the information from the active directory it fails, 
   	   the obtaining of data protection information is affected, the problem
