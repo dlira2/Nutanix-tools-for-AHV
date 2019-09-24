@@ -13,7 +13,7 @@ LATEST VERSION V2.4.5:
 
 NEW ON NIACtool v2.4 / v2.4.1 / v2.4.2 / v2.4.3 / v2.4.4 / v2.4.5:
 
-        NIACTool V2.4.5:
+       NIACTool V2.4.5:
 	MINIMAL FIX AND NEW DATA
 	FIX:
 	1) If the VM has more than 1 cdrom NIAC already detects it and
