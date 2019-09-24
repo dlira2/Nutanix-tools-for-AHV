@@ -9,12 +9,25 @@ Script developed in python to collect the information of Prism Element with the 
 
 Tested on AOS 5.5.x , 5.8.x , 5.9.x and 5.10.x
 
-LATEST VERSION V2.4.4:
+LATEST VERSION V2.4.5:
 
-NEW ON NIACtool v2.4 / v2.4.1 / v2.4.2 / v2.4.3 / v2.4.4:
+NEW ON NIACtool v2.4 / v2.4.1 / v2.4.2 / v2.4.3 / v2.4.4 / v2.4.5:
 
+        NIACTool V2.4.5:
+	MINIMAL FIX AND NEW DATA
+	FIX:
+	1) If the VM has more than 1 cdrom NIAC already detects it and
+	displays it correctly.
+	NEW DATA:
+	1) New DATA on VMDISK INFO TAB, now you can see that IMAGE (iso)
+	is mounted on the CDROM drives.
+	
+	LIMITATION: If the VM was cloned with ISO mounted on CDROM you
+	must remove iso and mount again the image to be able to
+	visualize correctly.
+	  
+	MINIMAL FIX v2.4.4
 	Fix:
-	  MINIMAL FIX v2.4.4
   	1) Key problem (Name on project prism central).
   	Thanks Justin for your feedback :)
 	
