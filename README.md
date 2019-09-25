@@ -10,6 +10,7 @@ Script developed in python to collect the information of Prism Element with the 
 Tested on AOS 5.5.x , 5.8.x , 5.9.x and 5.10.x
 
 LATEST VERSION V2.4.5:
+BETA VERSION V2.5: Support ESXi hypervisor.
 
 NEW ON NIACtool v2.4 / v2.4.1 / v2.4.2 / v2.4.3 / v2.4.4 / v2.4.5:
 
