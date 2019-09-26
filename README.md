@@ -10,8 +10,20 @@ Script developed in python to collect the information of Prism Element with the 
 Tested on AOS 5.5.x , 5.8.x , 5.9.x and 5.10.x
 
 LATEST VERSION V2.4.5:
-BETA VERSION V2.5: Support ESXi hypervisor.
 
+BETA VERSION V2.6 Beta: Support ESXi hypervisor.
+
+      Example : 
+      
+      (((AHV with prism central info ( recommended ):
+      NIACtool_v2.6.exe -hv AHV -ip 10.26.1.180 -un admin -pw password -pc y -pi 10.26.1.224 -pu admin -pp password)))
+
+      (((AHV with no prism central info (Less info):
+      NIACtool_v2.6.exe -hv AHV -ip 10.26.1.180 -un admin -pw password -pc n)))
+
+      (((ESXi:
+      NIACtool_v2.6.exe -hv ESXi -ip 10.26.1.180 -un admin -pw password)))
+      
 NEW ON NIACtool v2.4 / v2.4.1 / v2.4.2 / v2.4.3 / v2.4.4 / v2.4.5:
 
    	NIACTool V2.4.5:
