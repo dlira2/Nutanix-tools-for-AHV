@@ -14,9 +14,11 @@ LATEST BETA VERSION 2.6 BETA:
 SUMMARY
 
 BETA VERSION V2.6 Beta: 
-1)CLI
-2)Support ESXi hypervisor.
 
+	NEW ON BETA:
+	1)CLI
+	2)Support ESXi hypervisor.
+	
       Example CLI : 
       
       (((AHV with prism central info ( recommended ):
