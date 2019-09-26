@@ -8,12 +8,16 @@ Data collector associated with the Nutanix AHV cluster and VM´s.
 Script developed in python to collect the information of Prism Element with the option of being able to connect to a Prism Central to obtain the project to which each VM belongs. The code generates an Excel table with all the information of the Nutanix platform with AHV. Many searches within the script are using Excel formulas to avoid overuse of API and the collection is more faster. The script will consult if there is an instance of Prism Central and if the user wants to obtain such information by means of a confirmation. If "Y" is selected, it will recolect the Prism Central VM proyect info. when this option is selected it may take a longer time.
 
 Tested on AOS 5.5.x , 5.8.x , 5.9.x and 5.10.x
-
 LATEST VERSION V2.4.5:
+LATEST BETA VERSION 2.6 BETA:
 
-BETA VERSION V2.6 Beta: Support ESXi hypervisor.
+SUMMARY
 
-      Example : 
+BETA VERSION V2.6 Beta: 
+1)CLI
+2)Support ESXi hypervisor.
+
+      Example CLI : 
       
       (((AHV with prism central info ( recommended ):
       NIACtool_v2.6.exe -hv AHV -ip 10.26.1.180 -un admin -pw password -pc y -pi 10.26.1.224 -pu admin -pp password)))
