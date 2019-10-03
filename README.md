@@ -338,7 +338,7 @@ INFORMATION COLLECTED BY NIACtool :
 
 	Antivirus is activated when they don't know a new APP. In order to avoid this situation, I should pay a certification to each vendor AV so that NIACtool is added to a whitelist, which is not possible at this time. This tool is spread for free without any profit motive. you can add NIACtool on your local whitelist and work without problems.
 
-	If you still want to use NIAC but you are not sure, I recommend that you open a ticket with your AV vendor and deliver the .exe for analysis.
+	If you still want to use NIAC but you are not sure, I recommend that you open a ticket with your AV vendor and send the .exe file for analysis.
 
 	According to my research when using Python and compiling it in an .exe using the pyinstaller utility (the one I use) these false positives are generated.    
      
