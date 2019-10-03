@@ -331,8 +331,8 @@ INFORMATION COLLECTED BY NIACtool :
      ENTITY DEPENDENCY
      
      
-- ![#f03c15](IMPORTANT INFO:) `#f03c15`     
-
+IMPORTANT INFO:  
+![#f03c15](IMPORTANT INFO:  )
 
 	Some antivirus may be activated when executing NIACtool, all alarms generated are false positives. NIACtool is compiled in a safe environment.
 
