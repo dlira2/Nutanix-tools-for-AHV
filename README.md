@@ -331,11 +331,8 @@ INFORMATION COLLECTED BY NIACtool :
      ENTITY DEPENDENCY
      
      
-  
-<span class="float-left text-red tooltipped tooltipped-n" aria-label="Does not meet accessibility standards"><%= octicon("alert") %></span>
-<div class="text-orange-light mb-2">
-  IMPORTANT INFO:
-</div>
+  #	IMPORTANT INFO:
+
 
 	Some antivirus may be activated when executing NIACtool, all alarms generated are false positives. NIACtool is compiled in a safe environment.
 
