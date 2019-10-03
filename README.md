@@ -330,7 +330,9 @@ INFORMATION COLLECTED BY NIACtool :
      SNAP UUID
      ENTITY DEPENDENCY
      
-IMPORTANTE INFO:
+     
+- ![#f03c15](IMPORTANT INFO:) `#f03c15`     
+
 
 	Some antivirus may be activated when executing NIACtool, all alarms generated are false positives. NIACtool is compiled in a safe environment.
 
