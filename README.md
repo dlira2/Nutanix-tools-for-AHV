@@ -12,7 +12,7 @@ Tested on AOS 5.5.x , 5.8.x , 5.9.x and 5.10.x
 	LATEST VERSION:  V2.4.5
 	LATEST BETA VERSION :V2.6
 
-SUMMARY
+#	SUMMARY
 
 	BETA VERSION V2.6: 
 
@@ -129,7 +129,7 @@ VM INFO TAB:
         *VM OS(NGT must be installed) ( Is necessary prism central info and NGT installed on VM)
 
      
-INFORMATION COLLECTED BY NIACtool : 
+#	INFORMATION COLLECTED BY NIACtool : 
 
 -Sumarry Cluster:
 
