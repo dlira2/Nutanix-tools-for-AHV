@@ -330,8 +330,10 @@ INFORMATION COLLECTED BY NIACtool :
      SNAP UUID
      ENTITY DEPENDENCY
      
-	IMPORTANTE INFO:
+IMPORTANTE INFO:
+
 	Some antivirus may be activated when executing NIACtool, all alarms generated are false positives. NIACtool is compiled in a safe environment.
+
 	Antivirus is activated when they don't know a new APP. In order to avoid this situation, I should pay a certification to each vendor AV so that NIACtool is added to a whitelist, which is not possible at this time. This tool is spread for free without any profit motive. you can add NIACtool on your local whitelist and work without problems.
 
 	If you still want to use NIAC but you are not sure, I recommend that you open a ticket with symantec and deliver the .exe for analysis.
