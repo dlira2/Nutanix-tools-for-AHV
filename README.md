@@ -9,8 +9,15 @@ Script developed in python to collect the information of Prism Element with the 
 
 Tested on AOS 5.5.x , 5.8.x , 5.9.x and 5.10.x
 
-	LATEST VERSION:  V2.4.5
-	LATEST BETA VERSION :V2.6
+	LATEST VERSION:  V2.7
+	NIACtool v2.7
+	-GUI optimization.
+	-Timeout set to 120 seconds.
+	-The extended time out button was removed from GUI.
+	-CLI support to generate the file from console.
+	-New toolbar, menu, “check new version”,” open log file” and “exit”.
+	-New toolbar, help, “version info” and about.
+	-NIACtool did not correctly detect the path where it was running, this brought problems when executing, giving errors         when saving the log or invoking the cli / gui
 
 #	SUMMARY
 
