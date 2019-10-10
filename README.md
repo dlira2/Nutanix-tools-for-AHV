@@ -17,7 +17,7 @@ Tested on AOS 5.5.x , 5.8.x , 5.9.x and 5.10.x
 	-CLI support to generate the file from console.
 	-New toolbar, menu, “check new version”,” open log file” and “exit”.
 	-New toolbar, help, “version info” and about.
-	-NIACtool did not correctly detect the path where it was running, this brought problems when executing, giving errors         when saving the log or invoking the cli / gui
+	-NIACtool did not correctly detect the path where it was running, this brought problems when executing, giving errors when saving the log or invoking the cli / gui
 
 #	SUMMARY
 
